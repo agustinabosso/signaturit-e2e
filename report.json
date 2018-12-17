@@ -1,0 +1,165 @@
+[
+  {
+    "description": "Log In - Successful Log In",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I am on the login page",
+        "category": "Login and Logout user: Log In - Successful Log In",
+        "sourceLocation": {
+          "filePath": "e2e/features/login.feature",
+          "line": 9,
+          "column": 5
+        },
+        "progress": {
+          "step": 1,
+          "steps": 5
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When the following credentials are sent: \"behat.signaturit@gmail.com\", \"Signaturit2014\"",
+        "category": "Login and Logout user: Log In - Successful Log In",
+        "sourceLocation": {
+          "filePath": "e2e/features/login.feature",
+          "line": 10,
+          "column": 5
+        },
+        "progress": {
+          "step": 2,
+          "steps": 5
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then the \"Signaturit logo\" is displayed",
+        "category": "Login and Logout user: Log In - Successful Log In",
+        "sourceLocation": {
+          "filePath": "e2e/features/login.feature",
+          "line": 11,
+          "column": 5
+        },
+        "progress": {
+          "step": 3,
+          "steps": 5
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And the \"User avatar\" is displayed",
+        "category": "Login and Logout user: Log In - Successful Log In",
+        "sourceLocation": {
+          "filePath": "e2e/features/login.feature",
+          "line": 12,
+          "column": 5
+        },
+        "progress": {
+          "step": 4,
+          "steps": 5
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And the \"User name\" is displayed",
+        "category": "Login and Logout user: Log In - Successful Log In",
+        "sourceLocation": {
+          "filePath": "e2e/features/login.feature",
+          "line": 13,
+          "column": 5
+        },
+        "progress": {
+          "step": 5,
+          "steps": 5
+        }
+      }
+    ],
+    "emitToTestRunner": [
+      [
+        "testPass",
+        {
+          "name": "Given I am on the login page",
+          "category": "Login and Logout user: Log In - Successful Log In",
+          "sourceLocation": {
+            "filePath": "e2e/features/login.feature",
+            "line": 9,
+            "column": 5
+          },
+          "progress": {
+            "step": 1,
+            "steps": 5
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "When the following credentials are sent: \"behat.signaturit@gmail.com\", \"Signaturit2014\"",
+          "category": "Login and Logout user: Log In - Successful Log In",
+          "sourceLocation": {
+            "filePath": "e2e/features/login.feature",
+            "line": 10,
+            "column": 5
+          },
+          "progress": {
+            "step": 2,
+            "steps": 5
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "Then the \"Signaturit logo\" is displayed",
+          "category": "Login and Logout user: Log In - Successful Log In",
+          "sourceLocation": {
+            "filePath": "e2e/features/login.feature",
+            "line": 11,
+            "column": 5
+          },
+          "progress": {
+            "step": 3,
+            "steps": 5
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "And the \"User avatar\" is displayed",
+          "category": "Login and Logout user: Log In - Successful Log In",
+          "sourceLocation": {
+            "filePath": "e2e/features/login.feature",
+            "line": 12,
+            "column": 5
+          },
+          "progress": {
+            "step": 4,
+            "steps": 5
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "And the \"User name\" is displayed",
+          "category": "Login and Logout user: Log In - Successful Log In",
+          "sourceLocation": {
+            "filePath": "e2e/features/login.feature",
+            "line": 13,
+            "column": 5
+          },
+          "progress": {
+            "step": 5,
+            "steps": 5
+          }
+        }
+      ]
+    ],
+    "duration": null
+  }
+]
